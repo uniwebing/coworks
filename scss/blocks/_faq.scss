@@ -1,0 +1,40 @@
+.faq {
+
+}
+
+.faq__wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 40px;
+
+    @include tablet {
+        flex-direction: column;
+    }
+
+    @include mobile {
+        row-gap: 20px;
+    }
+}
+
+.faq__title {
+    width: 470px;
+    // если будет много контента справа что бы колонка не сжималась
+    flex-shrink: 0;
+
+    // unset ограничение по ширине не задано
+    // оставила просто как пример а так width
+    // max-width: unset;
+    @include tablet {
+        width: auto;
+    }
+}
+
+.faq__topics {
+    width: 670px;
+    flex-shrink: 0;
+
+    @include tablet {
+        width: auto;
+    }
+}

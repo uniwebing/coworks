@@ -1,0 +1,41 @@
+.slider {
+    // это было нужно пока картинок не было
+    // display: flex;
+    // column-gap: 10px;
+    // overflow: hidden;
+
+    img {
+        border-radius: 8px;
+        object-fit: cover;
+        
+        max-width: unset !important;
+        //height: unset !important;
+        height: 400px !important;
+        @include mobile {
+            height: 250px !important;
+        } 
+    }
+}
+
+.slider > div:first-child {
+    padding-left: 15px;
+}
+
+
+// #tns1-item0 {
+//     padding-left: 15px;
+// }
+
+// .slider > *:first-child {
+//     padding-left: 15px;
+// }
+
+
+// эти стили не нужны так как класс теперь другой
+// .slider__img {
+//     border-radius: 8px;
+
+//     @include mobile {
+//         height: 250px;
+//     }
+// }
