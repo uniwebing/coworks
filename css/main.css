@@ -170,6 +170,16 @@ button:focus {
 .no-scroll {
   overflow-y: hidden;
 }
+@media (min-width: 1200px) {
+  .no-scroll {
+    padding-right: 25px;
+  }
+}
+@media (max-width: 1119px) {
+  .no-scroll {
+    padding-right: 0;
+  }
+}
 
 .container {
   width: 1200px;
