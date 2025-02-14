@@ -172,7 +172,7 @@ button:focus {
 }
 @media (min-width: 1200px) {
   .no-scroll {
-    padding-right: 25px;
+    padding-right: 17px;
   }
 }
 @media (max-width: 1119px) {
